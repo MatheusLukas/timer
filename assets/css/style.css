@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aqua;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input,
+form label,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid aqua;
+}
+
+form button {
+  border: none;
+  background-color: aqua;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: aquamarine;
+}
+
+.clock {
+  font-size: 3em;
+}
+
+.btn-Start {
+  background-color: green;
+  border: 1px, black, solid;
+  padding: 5px 10px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.btn-Start:hover {
+  scale: 1.2;
+  background-color: greenyellow;
+}
+
+.btn-Stop {
+  background-color: red;
+  border: 1px, black, solid;
+  padding: 5px 10px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.btn-Stop:hover {
+  scale: 1.2;
+  background-color: rgb(247, 138, 138);
+}
+
+.btn-Restart {
+  background-color: rgba(0, 115, 255, 0.553);
+  border: 1px, black, solid;
+  padding: 5px 10px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.btn-Restart:hover {
+  scale: 1.2;
+  background-color: rgba(68, 151, 253, 0.553);
+}
